@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+/*首页*/
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#fafbf9;
+}
+section{
+	height: 460px;
+	margin: 0 180px;
+	background:#ECF1E4;
+	padding:20px;
+}
+.fdj{
+	height: 500px;
+	position:relative;
+}
+h1{
+	width: 200px;
+	font-size: 24px;
+	line-height: 24px;
+	color:#02720c;
+	line-height: 45px;
+	margin-left:181px;
+}
+ .fa{
+	font-size: 12px;
+	line-height: 25px;
+	color: #94b681;
+	margin-left:180px;
+}
+/*放大镜*/
+.magnify{
+	width: 400px;
+	position: relative;
+	float:left;
+}
+.large {
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	border-radius: 100%;
+	box-shadow: 0 0 0 7px rgba(255,255,255,0.8),0 0 7px 7px rgba(0,0,0,0.3),inset 0 0 40px 2px rgba(0,0,0,0.3); 
+	background: url(../img/fangda.jpg) no-repeat;
+	display: none;
+}
+.small {
+	display: block;
+}
+section .xiang{
+	margin-left:35px;
+	float:left;
+	width: 480px;
+	height: 440px;
+	padding:10px;
+	color:#e22c4a;
+}
+section span{
+	font-size: 16px;
+	line-height: 20px;
+	color:#ac0;
+}
+section .bang_1{
+	margin-top:20px;
+}
+section input{
+	margin-left:50px;
+	padding-bottom:10px;
+	color:#e5677c;
+}
+section a img{
+	margin-top:50px;
+	margin-left:50px;
+}

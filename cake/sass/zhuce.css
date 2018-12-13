@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+/*首页*/
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+section{
+	height: 100px;
+	margin-left:200px;
+}
+section p{
+	color:#02720c;
+	font-size:18px;
+	line-height: 18px;
+	padding:62px 0 18px 0;
+}
+form{
+	width: 834px;
+	height: 317px;
+	border:1px solid #d5e7cd;
+	box-shadow:1px 1px 1px #d5e7cd,1px -1px 1px #d5e7cd,-1px 1px 1px #d5e7cd,-1px -1px 1px #d5e7cd;
+	padding:46px 0 50px 123px;
+}
+form #inpu{
+	width: 460px;
+	height: 315px;
+	border-right:1px solid #d5e7cd;
+	float:left;
+	text-align: right;
+	padding-bottom:12px;
+	color:#689150;
+	font-size: 14px;
+}
+form #inpu input{
+	width: 252px;
+	height: 26px;
+	margin-right:124px;
+}
+form #inpu span{
+	display: block;
+	text-align: left;
+	width: 252px;
+	height: 26px;
+	margin-left:80px;
+	color:#ff8a00;
+}
+form #inpu_2{
+	float: left;
+}
+form #inpu #submit{
+	width: 197px;
+	height: 34px;
+	background: #10791a;
+	color:#fff;
+	font-size: 14px;
+	border-radius:5px;
+	margin:33px 160px 0 0 ;
+}
+form #inpu_2 p{
+	color:#ff8a00;
+	font-size: 14px;
+	line-height: 14px;
+	padding:65px 0 68px 104px;
+}
+form #inpu_2 a{
+	padding-left:64px;
+}
+.xian{
+	width: 100%;
+	margin-top:500px;
+	border-top:5px solid #10791a;
+}
+.xian p{
+	padding:20px 0 50px 350px;
+	color:rgb(164, 173, 115);
+	font-size: 12px;
+	line-height: 12px;
+}

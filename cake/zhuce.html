@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="sass/zhuce.css">
+	<link rel="stylesheet" href="sass/gong.css">
+</head>
+<body>
+<!-- header -->
+<header>
+	<div class="logo">
+		<a href="index.html"><img src="img/logo.png" alt=""></a>
+	</div>
+	<div class="city"></div>
+	<ul class="one">
+		<li class="oneli"><a href="#">产品</a>
+			<ul class="two">
+				<li class="twoli"><a href="#">蛋糕</a>
+					<li class="twoli"><a href="#">卡卷</a></li>
+				</li>
+			</ul>
+		</li>
+		<li class="oneli"><a href="#">推荐</a>
+			<ul class="two">
+				<li class="twoli"><a href="#">新品上市</a>
+					<li class="twoli"><a href="#">加急推荐</a>
+						<li class="twoli"><a href="#">节日推荐</a>
+							<li class="twoli"><a href="#">星座探秘</a></li>
+						</li>
+					</li>
+				</li>
+			</ul>
+		</li>
+		<li class="oneli"><a href="#">体验</a>
+			<ul class="two">
+				<li class="twoli"><a href="#">中央工厂</a></li>
+			</ul>
+		</li>
+		<li class="oneli"><a href="#">服务</a>
+			<ul class="two">
+				<li class="twoli"><a href="#">会员服务</a>
+					<li class="twoli"><a href="#">订购帮助</a>
+						<li class="twoli"><a href="#">包装展示</a>
+							<li class="twoli"><a href="#">配送服务</a>
+							<li class="twoli"><a href="#">联系我们</a></li>
+							</li>
+						</li>
+					</li>
+				</li>
+			</ul>
+		</li>
+		<li class="oneli"><a href="#">品牌</a>
+			<ul class="two">
+				<li class="twoli"><a href="#">关于我们</a>
+					<li class="twoli"><a href="#">活动公告</a>
+						<li class="twoli"><a href="#">感谢有您</a></li>
+					</li>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<div class="gost">
+		<a href="zhuce.html">注册</a>
+		<a href="denglu.html">登录</a>
+		<a href="zhuce.html"><img src="img/cart3.png" alt=""></a>
+		<span>0</span>
+	</div>
+</header>
+<section>
+	<p>注册会员 Registered Members</p>
+	<form action="zhuce.php" method="get">
+		<div id="inpu">
+			手机号：<input type="text" name="phone" id="phone">
+			<span id="phoneSpan"></span>
+			会员名：<input type="text" name="vip" id="vipnum">
+			<span name="vipSpan"></span>
+			真实姓名：<input type="text" name="vname" id="vname">
+			<span name="nameSpan"></span>
+			密码：<input type="password" name="passw" id="passw">
+			<span name="passSpan"></span>
+			确认密码：<input type="password" id="heDui">
+			<span></span>
+			<input type="submit" name="注册！" id="submit">
+		</div>
+		<div id="inpu_2">
+			<p>以是VCAKE会员</p>
+			<a href="denglu.html"><img src="img/zchydl.gif" alt=""></a>
+		</div>
+	</form>
+</section>
+<div class="xian">
+	<p>西安尚诺西饼有限公司&copy;Copyright:vcake.cn 2013陕ICP备14002893号-1&nbsp;&nbsp;订购电话400-086-2277</p>
+</div>
+</body>
+</html>
+<script src="js/zhucephp.js"></script>
+<script src="js/index.js"></script>

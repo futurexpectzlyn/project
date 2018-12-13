@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet" href="sass/shopping.css">
+</head>
+<body>
+<header>
+	<div class="head">
+		<img src="img/logo.png" alt="">
+		<h3>西安购物站</h3>
+		<div class="shop">
+			 <a href="index.html">网站首页</a>&nbsp;|&nbsp;
+			 <a href="denglu.html">会员中心</a>
+		</div>
+	</div>
+</header>
+<div class="box">
+	<img src="img/shopping1.gif" alt="">
+</div>
+<div class="gost">
+	<p>我的购物车</p>
+	<a href="product.html">继续购物>></a>
+</div>
+<div  class="chan"><p>蛋糕类产品</p></div>
+<!-- 购物车 -->
+<table id="t">
+	<tr>
+		<td><button class="btn">全选</button></td>
+		<td>商品及规格</td>
+		<td>生日牌</td>
+		<td>生肖牌</td>
+		<td>市场价</td>
+		<td>折扣价</td>
+		<td>数量</td>
+		<td>小计</td>
+		<td>操作</td>
+	</tr>
+	<tr class="tabTr">
+		 <td><input  class="check"type="checkbox"></td>
+		<td>
+			<img src="img/e1.png" alt="">
+			<div id="cakes">
+				<h3>享在一起（16粒）A</h3>
+				<p>2.0磅/约20*20(cm)</p>
+				<span>赠送16个塑料叉，不赠送蜡烛，生日帽！</span>
+			</div>
+		</td>
+		<td class="radio">
+			<input type="radio">VCAKE LOGO
+		</td>
+		<td>无</td>
+		<td>320元</td>
+		<td id="discount"><span class="prices">288</span>元</td>
+		<td>
+			<button class="btnl">-</button><input class="txt" type="text" value="1"><button class="btnr">+</button>
+		</td>
+		<td id="discount"><span class="btnCount">288</span>元</td>
+		<td><a href="#" class="delete">删除</a></td>
+	</tr>
+	<tr class="tabTr">
+		 <td><input  class="check"type="checkbox"></td>
+		<td>
+			<img src="img/c4.png" alt="">
+			<div id="cakes">
+				<h3>享在一起（16粒）A</h3>
+				<p>2.0磅/约20*20(cm)</p>
+				<span>赠送16个塑料叉，不赠送蜡烛，生日帽！</span>
+			</div>
+		</td>
+		<td class="radio">
+			<input type="radio">VCAKE LOGO
+		</td>
+		<td>无</td>
+		<td>187元</td>
+		<td id="discount"><span class="prices">168</span>元</td>
+		<td>
+			<button class="btnl">-</button><input class="txt" type="text" value="1"><button class="btnr">+</button>
+		</td>
+		<td id="discount"><span class="btnCount">168</span>元</td>
+		<td><a href="#" class="delete">删除</a></td>
+	</tr>
+	<tr class="tabTr">
+		 <td><input  class="check"type="checkbox"></td>
+		<td>
+			<img src="img/c5.png" alt="">
+			<div id="cakes">
+				<h3>享在一起（16粒）A</h3>
+				<p>2.0磅/约20*20(cm)</p>
+				<span>赠送16个塑料叉，不赠送蜡烛，生日帽！</span>
+			</div>
+		</td>
+		<td class="radio">
+			<input type="radio">VCAKE LOGO
+		</td>
+		<td>无</td>
+		<td>280元</td>
+		<td id="discount"><span class="prices">252</span>元</td>
+		<td>
+			<button class="btnl">-</button><input class="txt" type="text" value="1"><button class="btnr">+</button>
+		</td>
+		<td id="discount"><span class="btnCount">252</span>元</td>
+		<td><a href="#" class="delete">删除</a></td>
+	</tr>
+	<tr class="tabTr">
+		 <td><input  class="check"type="checkbox"></td>
+		<td>
+			<img src="img/a9.png" alt="">
+			<div id="cakes">
+				<h3>享在一起（16粒）A</h3>
+				<p>2.0磅/约20*20(cm)</p>
+				<span>赠送16个塑料叉，不赠送蜡烛，生日帽！</span>
+			</div>
+		</td>
+		<td class="radio">
+			<input type="radio">VCAKE LOGO
+		</td>
+		<td>无</td>
+		<td>229元</td>
+		<td id="discount"><span class="prices">206</span>元</td>
+		<td>
+			<button class="btnl">-</button><input class="txt" type="text" value="1"><button class="btnr">+</button>
+		</td>
+		<td id="discount"><span class="btnCount">206</span>元</td>
+		<td><a href="#" class="delete">删除</a></td>
+	</tr>
+	<tr>
+		<td><button class="btnf">反选</button></td>
+		<td colspan="8">
+			<p id="totle">总计：共<span class="money">0</span>元(含运费)</p></td>
+	</tr>
+</table>
+<div class="xian">
+	<p>西安尚诺西饼有限公司&copy;Copyright:vcake.cn 2013陕ICP备14002893号-1&nbsp;&nbsp;订购电话400-086-2277</p>
+</div>
+</body>
+</html>
+<script src="js/shopping.js"></script>

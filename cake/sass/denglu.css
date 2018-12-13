@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+/*首页*/
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+section{
+	width: 978px;
+	height: 413px;
+	background-size:100%;
+	margin:50px 0 0 150px;
+	background:url(../img/bg.jpg);
+}
+section h3{
+	display: inline;
+	color:#808c20;
+	font-weight: normal;
+	padding:0px 20px 0 23px;
+}
+section span{
+	color:#ff7400;
+	font-size: 12px;
+	line-height: 12px;
+}
+form{
+	width: 434px;
+	height: 182px;
+	padding:85px 0 50px 108px;
+	float:left;
+}
+form #inpu{
+	width: 383px;
+	height: 272px;
+	float:left;
+	text-align: right;
+	padding-bottom:12px;
+	color:#689150;
+	font-size: 14px;
+}
+form #inpu .phone,.passw{
+	width: 196px;
+	height: 28px;
+	margin-bottom:22px;
+	margin-right:124px;
+}
+form .submit{
+	background:#10791a;
+	color:white;
+	display: block;
+	width: 196px;
+	height: 28px;
+	margin-left:56px;
+	margin-top:29px;
+}
+form #inpu a img{
+	padding:40px 123px 0 0;
+}
+form #seven{
+	display: inline;
+	margin-right:247px;
+}
+section #inpu_2{
+	width: 197px;
+	float: left;
+	padding-left:60px;
+}
+section #inpu_2 img{
+	width: 197px;
+	height: 34px;
+	padding:12px 130px 0 0;
+}
+section #inpu_2 p{
+	color:#ff8a00;
+	font-size: 14px;
+	line-height: 14px;
+	padding:117px 0 0 20px;
+}
+section #inpu_2 a img{
+	float:left;
+	padding-bottom:15px;
+}
+section #inpu_2 span{
+	color:#a1b07b;
+}
+section #inpu_2 span a{
+	color:#ff8a00;
+}
+.xian{
+	width: 100%;
+	height: 5px;
+	border-top:8px solid #10791a;
+	margin-top:100px;
+}
+.xian p{
+	padding:20px 0 50px 350px;
+	color:rgb(164, 173, 115);
+	font-size: 12px;
+	line-height: 12px;
+}
